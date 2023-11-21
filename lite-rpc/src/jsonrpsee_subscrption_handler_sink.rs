@@ -30,6 +30,7 @@ impl solana_lite_rpc_core::traits::subscription_sink::SubscriptionSink
                 .unwrap(),
             )
             .await;
+        
     }
 
     fn is_closed(&self) -> bool {
